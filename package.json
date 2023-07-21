@@ -75,5 +75,13 @@
   "publishConfig": {
     "access": "public"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jiazez/react-list-auto-scroll"
+  },
+  "bugs": {
+    "url": "https://github.com/jiazez/react-list-auto-scroll/issues"
+  },
+  "homepage": "https://github.com/jiazez/react-list-auto-scroll#readme",
   "authors": "jiaze"
 }
