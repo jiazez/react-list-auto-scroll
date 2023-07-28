@@ -51,7 +51,7 @@ const Scroll = (props: ScrollProps) => {
   }, [data]);
 
   useEffect(() => {
-    if (scrollData?.length) timerChange();
+    if (scrollData?.length && data?.length > len) timerChange();
   }, [scrollData]);
 
   return (
